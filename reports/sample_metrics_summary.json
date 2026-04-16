@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-04-04T14:22:45",
+  "per_model": {
+    "qwen_local_awq": {
+      "attempts": 50,
+      "successes": 50,
+      "errors": 0,
+      "avg_latency_ms": 8439.1,
+      "avg_score": 0.748,
+      "success_rate": 1.0
+    },
+    "zhipu_glm_flash": {
+      "attempts": 50,
+      "successes": 37,
+      "errors": 13,
+      "avg_latency_ms": 13207.1,
+      "avg_score": 0.782,
+      "success_rate": 0.74
+    },
+    "aliyun_qwen36_plus": {
+      "attempts": 50,
+      "successes": 50,
+      "errors": 0,
+      "avg_latency_ms": 20558.7,
+      "avg_score": 0.869,
+      "success_rate": 1.0
+    }
+  },
+  "best_model_by_task": {
+    "qa": {
+      "model_id": "qwen_local_awq",
+      "best_score": 1.0
+    },
+    "rewrite": {
+      "model_id": "aliyun_qwen36_plus",
+      "best_score": 1.0
+    },
+    "structured_extraction": {
+      "model_id": "qwen_local_awq",
+      "best_score": 1.0
+    },
+    "summary": {
+      "model_id": "qwen_local_awq",
+      "best_score": 1.0
+    }
+  }
+}
