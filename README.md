@@ -147,6 +147,8 @@ Reports are written to:
 reports/
 ```
 
+Note: the demo UI can start without model credentials, but actual generation requires at least one configured local or remote model.
+
 ## Demo Flow
 
 Recommended demo order:
